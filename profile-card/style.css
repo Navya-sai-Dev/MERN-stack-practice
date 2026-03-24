@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+}
+
+.card {
+  width: 340px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Header */
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #22c55e;
+}
+
+.badge {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background: #22c55e;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Info */
+.info {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.info h1 {
+  font-size: 22px;
+}
+
+.info h3 {
+  color: #38bdf8;
+  margin: 5px 0;
+}
+
+.location {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.skills span {
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  font-size: 12px;
+}
+
+/* Bio */
+.bio {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.primary {
+  background: #38bdf8;
+  color: black;
+}
+
+.primary:hover {
+  background: #0ea5e9;
+}
